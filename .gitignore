@@ -1,0 +1,39 @@
+# Python cache / test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest_tmp/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build and release artifacts
+build/
+dist/
+build_logs/
+*.spec.bak
+
+# Installer payloads generated during packaging
+build/installer_payload/
+build/installer_smoke/
+
+# Local logs and exported masking results
+*.log
+masking_log_*.csv
+masked_*
+
+# Sensitive local documents should not be committed by default
+*.pdf
+*.xlsx
+*.docx
+*.hwpx
+*.hwp
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
